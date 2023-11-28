@@ -1,4 +1,5 @@
 [versions]
+koin = "3.5.0"
 agp = "8.1.4"
 kotlin = "1.9.20"
 compose = "1.5.4"
@@ -7,6 +8,8 @@ compose-material3 = "1.1.2"
 androidx-activityCompose = "1.8.0"
 
 [libraries]
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
