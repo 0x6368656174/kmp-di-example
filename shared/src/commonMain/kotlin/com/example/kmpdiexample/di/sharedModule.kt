@@ -11,7 +11,7 @@ import org.koin.dsl.module
  * The Koin module that contains all DI services, ViewModules, etc.,
  * that provided in Shared Module.
  */
-internal val sharedModule: Module = module {
+val sharedModule: Module = module {
     singleOf(::Logger)
     singleOf(::Platform)
     singleOf(::Greeting)

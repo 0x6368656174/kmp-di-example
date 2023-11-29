@@ -2,7 +2,7 @@ import Foundation
 import shared
 
 class AnalyticImpl: Analytic {
-    let logger: Logger
+    private let logger: Logger
     
     init(logger: Logger) {
         self.logger = logger
