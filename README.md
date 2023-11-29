@@ -270,6 +270,8 @@ In the shared project, as I showed in `Greeting` service, other services may be 
 To use services in Android, we may use the standard Koin Android library `inject` function.
 
 ```kotlin
+// androidApp/src/main/java/com/example/kmpdiexample/android/MainActivity.kt
+
 class MainActivity : ComponentActivity() {
   private val greeting: Greeting by inject()
 
